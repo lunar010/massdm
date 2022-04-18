@@ -1,0 +1,21 @@
+FastDM:
+  # FastDM 라이센스 코드
+  license: test
+  scrape:
+    # 뒷메를 원하는 서버의 인증 시스템을 통과한 토큰
+    maintoken: NzU0NTk5MDE4ODQzMjA5ODQ4.Yl0R0w.VUqeKdmrspNfxS5sc-XYbhIwApg
+    # 뒷메를 원하는 서버의 아이디
+    guildid: 957459363163942924
+    # 유저 리스트를 수집할 채널 아이디
+    channelid: 957459363696623679
+  send:
+    # 원하는 모드 (fast | slow)
+    mode: fast
+    # SlowDM 모드일때, DM당 얼마만큼 쉴건지 정하는것 (초)
+    sleep: 1
+    # 뒷메를 보낼때, 겹치지 않도록 유저 리스트를 섞는것 (true | false)
+    shuffle: true
+    # 뒷메를 원하는 서버의 초대코드 (예 RPz2qpgL 혹은 https://discord.gg/RPz2qpgL)
+    invite: https://discord.gg/BrPras4Q
+    # 뒷메의 내용 (\n -> 줄바꿈)
+    message: 안녕하세요
